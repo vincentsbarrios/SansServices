@@ -103,11 +103,11 @@ function App() {
         
         <div className="NavBar">
           <Row justify="end">
-          <Col  href="https://www.beaches.com/awards/" span={2}>Local Tours</Col>
-          <Col  href="https://www.beaches.com/brochure/" span={2}>Red Lane© Spa</Col>
-          <Col  href="https://www.aliyun.com" span={2}>Before You Arrive</Col>
-          <Col  href="https://www.beaches.com/extras/" span={2}>Already Booked?</Col>
-          <Col  href="https://www.aliyun.com" span={6}>
+          <Button className='nav-btn'  href="https://www.beaches.com/awards/" span={2}>Local Tours</Button>
+          <Button className='nav-btn' href="https://www.beaches.com/brochure/" span={2}>Red Lane© Spa</Button>
+          <Button className='nav-btn' href="https://www.aliyun.com" span={2}>Before You Arrive</Button>
+          <Button className='nav-btn' href="https://www.beaches.com/extras/" span={2}>Already Booked?</Button>
+          <Col span={6}>
           <form>
             <div class="input-group">
               <input type="text" class="form-control" placeholder="Search..."></input>

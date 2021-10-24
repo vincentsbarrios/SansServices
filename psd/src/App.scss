@@ -15,6 +15,13 @@ $NavigationBarColor: black;
     
   }
 
+  .nav-btn {
+    background-color: transparent;
+    color: white;
+    border-radius: 1%;
+    border-color: transparent;
+  }
+
   .form-control {
     background-color: $NavigationBarColor;
     height: 28px;
